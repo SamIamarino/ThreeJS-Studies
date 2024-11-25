@@ -54,7 +54,7 @@ const plane = new THREE.Mesh(planeGeo, planeMat);
 plane.receiveShadow = true;
 plane.position.y = -1;
 plane.rotation.x = Math.PI * -.5;
-scene.background = new THREE.Color(0x808080);
+
 scene.add(plane);
 
 
